@@ -4,46 +4,61 @@ body {
   }
   
   h1 {
+    color: rebeccapurple;
     border: solid 5px black;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  span.a {
+   color: rgb(112, 236, 74);
+  }
+
+  span.b { 
+ color: rgb(255, 158, 125);
   }
   
   p {
     text-align: justify;
   }
   
-  p.1 {
+  p.e1 {
+    color: hotpink;
     border-left: double 20px red;
     border-top: double 20px red;
   }
   
-  p.2 {
+  p.e2 {
+    color: red;
     border-color: blue green;
     border-width: 5px 10px 20px 40px;
     border-style: dashed;
   }
   
-  p.2 {
-    border-color: gold;
+  p.e3 {
+    color: blueviolet;
+    border-color: goldenrod;
     border-width: 40px 10px;
     border-style: double;
   }
   
-  p.4 {
+  p.e4 {
+    color: rgb(255, 42, 202);
     border-color: lime black blue;
     border-width: 20px;
     border-style: solid none;
   }
   
-  p.5 {
+  p.e5 {
+    color:green;
     border-color: red black black;
     border-width: 40px;
     border-style: dashed solid dotted;
   }
   
-  p.6 {
-    border-color: black black black red;
+  p.e6 {
+    color: blue;
+    border-color: black black black red; 
     border-width: 10px 40px 20px;
-    border-style: dotted solid dashed double;
+    border-style: dotted solid dashed double; 
   }
